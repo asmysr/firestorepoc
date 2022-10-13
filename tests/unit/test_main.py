@@ -65,7 +65,7 @@ def test_delete_single_doc():
     main.delete_single_doc()
 
 def test_delete_field(db):
-    db.collection('cities').document('BJ').set({'capital': True})
+    db.collection('servicerocket').document('42069').set({'Fat': True})
     main.delete_field()
 
 def test_delete_full_collection():
