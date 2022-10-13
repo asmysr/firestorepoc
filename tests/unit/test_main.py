@@ -6,7 +6,7 @@ import pytest
 
 import main
 
-os.environ['GOOGLE_CLOUD_PROJECT'] = os.environ['FIRESTORE_PROJECT']
+os.environ['GOOGLE_CLOUD_PROJECT'] = "ADD-PROJECT-NAME-HERE" #needs to be in string
 
 UNIQUE_STRING = str(uuid.uuid4()).split("-")[0]
 
