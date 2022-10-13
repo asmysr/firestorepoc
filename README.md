@@ -1,21 +1,30 @@
 # Firestore POC
+This is a Firebase Firestore POC that does these:
 
+- Create
+  - new project
+  - add data
+  - add data from dictionary
+- Read
+  - read collection
+  - check if data exists
+  - get simple query
+- Update
+  - update via .set and .update
+- Delete
+  - delete single docs
+  - delete field
+  - delete full collection
+
+## Table of Content
 - [Firestore POC](#firestore-poc)
+  - [Table of Content](#table-of-content)
   - [Requirements](#requirements)
   - [Setting Up](#setting-up)
     - [Firebase Console](#firebase-console)
     - [Firebase Admin SDK](#firebase-admin-sdk)
     - [Cloud Firestore REST API](#cloud-firestore-rest-api)
     - [Install Requirements](#install-requirements)
-
-This is a Google Cloud Function that does these:
-
-- sending data to Firestore
-- retreiving data from Firestore
-
-and in the end of the source code there shall be included
-- unit test code for both events
-- trouble shooting
 
 ## Requirements
 
