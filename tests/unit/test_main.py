@@ -56,12 +56,6 @@ def test_get_simple_query():
 
 # UPDATE
 
-def test_update_doc():
-    main.update_doc()
-
-def test_update_multiple():
-    main.update_multiple()
-
 def test_update_nested():
     main.update_nested()
 
